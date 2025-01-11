@@ -22,8 +22,9 @@ Access to repository in
 - Ubuntu
 For installation in particular use the command: `sudo snap install julia -classic`
 
- 
-For installation on Windows systems, just download from <a href="https://julialang.org/"><img align = "center" alt= "julia-lang" heigth = "50" width="70" src= "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/julia/julia-original-wordmark.svg" style="max-width100%;"/></a> the .exe for the system Windows operating system and follow the steps indicated by the app. And then click on the icon on your Desktop and install the libraries. To do so, just type in Julia's terminal: `using Pkg; Pkg.add("Package Name");`
+
+ ### Windows
+For installation on Windows systems, just download from <a href="https://julialang.org/">HERE</a> the .exe for the system Windows operating system and follow the steps indicated by the app. And then click on the icon on your Desktop and install the libraries. To do so, just type in Julia's terminal: `using Pkg; Pkg.add("Package Name");`
 
 ### Packages
 
@@ -38,6 +39,15 @@ For its use it is necessary to install the following packages:
  <li><a href="https://docs.julialang.org/en/v1/stdlib/DelimitedFiles/">DelimitedFiles</a></li>
 </ul>
 
+- For installation use code in prompt julia:
+
+```
+using Pkg
+v = ["DynamicalSystem","SharedArrays","Statistics","OdinaryDiffEq","DelimitedFiles"]
+for i in v
+  Pkg.add(i)
+ end 
+```
 
 ## Codes 
 
