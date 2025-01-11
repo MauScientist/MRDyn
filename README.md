@@ -1,4 +1,4 @@
-![twitter_header_1500x500](https://github.com/ScienceMau/Olivia-Project/assets/61286097/be1dcb73-ba70-4de7-aac0-c3c1c8073b39)
+![Imagem_1](https://github.com/user-attachments/assets/2f79925e-4a9d-4251-979a-44fbb106c7c3)
 
 
 For better performance of the created scripts we indicate:
